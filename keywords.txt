@@ -1,0 +1,18 @@
+#######################################
+#   Syntax  Coloring
+#######################################
+
+#######################################
+#   Classes (KEYWORD1)
+#######################################
+AnalogESP			KEYWORD1
+
+#######################################
+#   Methods and Functions (KEYWORD2)
+####################################### 
+IsVrefNeeded		KEYWORD2
+begin				KEYWORD2
+mVoltageRead		KEYWORD2
+VoltageRead			KEYWORD2
+AnalogRead			KEYWORD2
+PinToADC_Channel	KEYWORD2

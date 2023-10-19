@@ -1,8 +1,12 @@
+# Deprecated
+
+This library is now deprecated because IDF has changed the ADC calibration scheme and because, for a few years now, Arduino ESP32 has implemented calibration directly in its API if you call analogReadMilliVolts() instead of analogRead(). Therefore there's no good reason to update this library to the new scheme.
+
 # AnalogESP
 This library helps a little bit with the erratic behavior of ESP32 ADC using IDF provided calibration.
 The calibration help with the non-linearity, but the ADC is still unable to measure values close to the min and the max range.
 
-See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/adc.html for more information.
+See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/adc_calibration.html for more information.
 
 This library can used the follow channels-pins for the adc:
 
